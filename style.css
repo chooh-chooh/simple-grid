@@ -5,6 +5,9 @@
   padding: 0;
   font-family: Rubik;
 }
+.body {
+  padding: 0 32px;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -92,18 +95,3 @@
   cursor: pointer;
   background-color: white;
 }
-
-/* .button {
-  border: none;
-  background-color: transparent;
-  border-radius: 8px;
-}
-.button:hover{
-  background-color: white;
-  cursor: pointer;
-}
-.button:focus{
-  outline: 2px solid #37CDAB;
-  cursor: pointer;
-  background-color: white;
-} */
