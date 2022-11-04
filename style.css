@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 90px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 123px;
+}
+.card {
+    width: 393px;
+    background-color: #F4F5F7;
+    border-radius: 16px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card:hover{
+  background-color: #E8ECFF;
+  cursor: pointer;
+}
+.title{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #152A41;
+  margin-bottom: 20px;
+}
+.desc{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #7C8698;
+}
+.subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding: 20px;
+}
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 21px;
+    color: #606C82;
+}
+.logo{
+  width: 32px;
+  height: 32px;
+}
+.card-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #37CDAB;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.card-link:hover{
+  background-color: white;
+  cursor: pointer;
+}
+.card-link:focus{
+  outline: 2px solid #37CDAB;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* .button {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+}
+.button:hover{
+  background-color: white;
+  cursor: pointer;
+}
+.button:focus{
+  outline: 2px solid #37CDAB;
+  cursor: pointer;
+  background-color: white;
+} */
